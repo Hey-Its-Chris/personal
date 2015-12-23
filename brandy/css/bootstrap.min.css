@@ -3523,7 +3523,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
     }
 }
 .navbar-default {
-    background-color: #F3F3F3;
+    background-color: transparent;
 }
 .navbar-default .navbar-brand {
     color: #777
