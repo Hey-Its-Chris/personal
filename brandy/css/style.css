@@ -27,6 +27,29 @@ h1, h2, h3, h4, h5, h6 {
     filter: alpha(opacity=50);
     /* For IE8 and earlier */
 }
+.transparent-80>img {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    /* For IE8 and earlier */
+}
+.transparent-50>img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+.transparent-20>img {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    /* For IE8 and earlier */
+}
+.shape-width {
+    width: 45%;
+    max-width: 45%;
+}
+.shape-width-small {
+    width: 10%;
+    max-width: 10%;
+}
 
 /*Header*/
 
@@ -42,6 +65,13 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+}
+header .section_overlay {
+    background: rgba(250, 250, 250, .5);
+    height: 100vh;
+    max-height: 100vh;
 }
 .section_overlay {
     background: rgba(250, 250, 250, .5);
