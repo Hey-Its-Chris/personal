@@ -23,13 +23,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-nav-picture>img {
     height: 20px;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-    /* For IE8 and earlier */
 }
-.transparent-80>img {
-    opacity: 0.8;
-    filter: alpha(opacity=80);
+.transparent-85>img {
+    opacity: 0.85;
+    filter: alpha(opacity=85);
     /* For IE8 and earlier */
 }
 .transparent-50>img {
@@ -54,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Header*/
 
 .navbar-default .navbar-nav>li>a {
-    color: #777;
+    color: #333;
     text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a:hover {
