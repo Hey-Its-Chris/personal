@@ -182,6 +182,13 @@ header .section_overlay {
 .about_title img {
     margin-bottom: 70px;
 }
+.about_image {
+    width: 100%;
+    max-width: 40rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 200px;
+}
 
 /*latest-projects*/
 
@@ -363,7 +370,7 @@ header .section_overlay {
     padding-top: 2px;
 }
 .left h2 {
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 18px;
     color: #000;
@@ -375,7 +382,8 @@ header .section_overlay {
     color: #000;
 }
 .baton {
-    margin-top: 65px;
+    margin-top: 40px;
+    margin-left: -30px;
 }
 .cs-btn, .cs-btn:active, .cs-btn:visited, .cs-btn:focus {
     color: #fff;
